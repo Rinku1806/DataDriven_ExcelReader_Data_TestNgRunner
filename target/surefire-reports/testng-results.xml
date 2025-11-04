@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-22T12:34:05 IST" name="JPetStore" finished-at="2025-10-22T12:34:33 IST" duration-ms="27393">
+    <groups>
+    </groups>
+    <test started-at="2025-10-22T12:34:05 IST" name="VerifyHomePageTitle" finished-at="2025-10-22T12:34:12 IST" duration-ms="6343">
+      <class name="testcases.HomePageTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.HomePageTest@3051e0b2]" started-at="2025-10-22T12:34:05 IST" name="beforeTest" finished-at="2025-10-22T12:34:06 IST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45e639ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.HomePageTest@3051e0b2]" started-at="2025-10-22T12:34:06 IST" name="beforeMethod" finished-at="2025-10-22T12:34:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45e639ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyHomePageTitle(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@3051e0b2]" started-at="2025-10-22T12:34:06 IST" name="VerifyHomePageTitle" data-provider="dp" finished-at="2025-10-22T12:34:12 IST" duration-ms="5852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitle -->
+        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.HomePageTest@3051e0b2]" started-at="2025-10-22T12:34:12 IST" name="quit" finished-at="2025-10-22T12:34:12 IST" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45e639ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.HomePageTest -->
+    </test> <!-- VerifyHomePageTitle -->
+    <test started-at="2025-10-22T12:34:12 IST" name="VerifySignInButtonPresence" finished-at="2025-10-22T12:34:15 IST" duration-ms="3622">
+      <class name="testcases.StoreEntryTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@2ff95fc6]" started-at="2025-10-22T12:34:12 IST" name="beforeTest" finished-at="2025-10-22T12:34:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77f03916]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@2ff95fc6]" started-at="2025-10-22T12:34:12 IST" name="beforeMethod" finished-at="2025-10-22T12:34:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77f03916]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifySignInButtonPresence(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@2ff95fc6]" started-at="2025-10-22T12:34:12 IST" name="VerifySignInButtonPresence" data-provider="dp" finished-at="2025-10-22T12:34:15 IST" duration-ms="3474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignInButtonPresence -->
+        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@2ff95fc6]" started-at="2025-10-22T12:34:15 IST" name="quit" finished-at="2025-10-22T12:34:15 IST" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77f03916]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.StoreEntryTest -->
+    </test> <!-- VerifySignInButtonPresence -->
+    <test started-at="2025-10-22T12:34:15 IST" name="VerifyStoreEntryTitle" finished-at="2025-10-22T12:34:21 IST" duration-ms="5551">
+      <class name="testcases.StoreEntryTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@58d63b16]" started-at="2025-10-22T12:34:15 IST" name="beforeTest" finished-at="2025-10-22T12:34:15 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@fbbd90c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@58d63b16]" started-at="2025-10-22T12:34:15 IST" name="beforeMethod" finished-at="2025-10-22T12:34:15 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@fbbd90c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyStoreEntryTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@58d63b16]" started-at="2025-10-22T12:34:15 IST" name="VerifyStoreEntryTitle" data-provider="dp" finished-at="2025-10-22T12:34:21 IST" duration-ms="5407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStoreEntryTitle -->
+        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@58d63b16]" started-at="2025-10-22T12:34:21 IST" name="quit" finished-at="2025-10-22T12:34:21 IST" duration-ms="115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@fbbd90c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.StoreEntryTest -->
+    </test> <!-- VerifyStoreEntryTitle -->
+    <test started-at="2025-10-22T12:34:21 IST" name="Verifylogin" finished-at="2025-10-22T12:34:33 IST" duration-ms="11863">
+      <class name="testcases.StoreEntryTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@37b72ea]" started-at="2025-10-22T12:34:21 IST" name="beforeTest" finished-at="2025-10-22T12:34:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21c34bf8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@37b72ea]" started-at="2025-10-22T12:34:21 IST" name="beforeMethod" finished-at="2025-10-22T12:34:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21c34bf8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@37b72ea]" started-at="2025-10-22T12:34:21 IST" name="Verifylogin" data-provider="dp" finished-at="2025-10-22T12:34:33 IST" duration-ms="11729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.StoreEntryTest@37b72ea]" started-at="2025-10-22T12:34:33 IST" name="quit" finished-at="2025-10-22T12:34:33 IST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21c34bf8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.StoreEntryTest -->
+    </test> <!-- Verifylogin -->
+  </suite> <!-- JPetStore -->
+</testng-results>
