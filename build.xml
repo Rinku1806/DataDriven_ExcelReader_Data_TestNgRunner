@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE project [
+]>
+
+<project name="DataDriven_ExcelReader_Data_TestNgRunner" default="usage" basedir=".">  
+
+<!-- ========== Initialize Properties =================================== -->
+    <property environment="env"/>
+    
+    <property name="ws.home" value="${basedir}"/>
+	<property name="ws.jars" value="C:\Users\MSI\.m2\repository"/>
+    <property name="test.dest" value="${ws.home}/build"/>
+    <property name="test.src" value="${ws.home}/src"/>
+	<property name="ng.result" value="${ws.home}/target/surefire-reports"/>
+	
+    <!--target name="start-selenium-server">
+        <java jar="${ws.home}/lib/selenium-server.jar"/>
+    </target-->
+	<path id="classpath_jars">
+	        	<fileset dir="${ws.jars}" includes="**/*.jar"/>
+	</path>
+    <target name="setClassPath" unless="test.classpath">
+        
+        <pathconvert pathsep=":" 
+            property="test.classpath" 
+            refid="classpath_jars"/>
+    </target>	
+
+    <target name="init" depends="setClassPath">
+        <tstamp>
+            <format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
+        </tstamp>
+    	<property name="testng.version" value="7.9.0" />
+    	<property name="testng.jar" value="C:\Users\MSI\.m2\repository\org\testng\testng\7.9.0" />
+        <condition property="ANT" 
+            value="${env.ANT_HOME}/bin/ant.bat" 
+            else="${env.ANT_HOME}/bin/ant">
+                    <os family="windows" />
+        </condition>
+    	 <echo message="compiling..."/>
+        <taskdef name="testng" classpath="${test.classpath}"
+               classname="org.testng.TestNGAntTask" />
+    	 <echo message="compiling after..."/>
+    </target>
+  
+    <!-- all -->
+    <target name="all">
+    </target>
+
+    <!-- clean -->
+    <target name="clean">
+        <delete dir="${test.dest}"/>
+    </target>
+
+    <!-- compile -->
+    <target name="compile" depends="init, clean" > 
+		<delete includeemptydirs="true" quiet="true">			
+            <fileset dir="${test.dest}" includes="**/*"/>
+		</delete>
+        <echo message="making directory..."/>
+		<mkdir dir="${test.dest}"/>
+        <echo message="classpath------: ${test.classpath}"/>
+        <echo message="compiling..."/>
+        <javac 
+            debug="true" 
+        	debuglevel="lines,vars,source"
+            destdir="${test.dest}" 
+            srcdir="${test.src}"       	
+            classpath="${test.classpath}">
+        </javac>
+      </target>
+
+    <!-- build -->
+    <target name="build" depends="init">
+    </target>
+
+    <!-- run -->
+    <target name="run" depends="compile">
+        <testng classpath="${test.classpath}:${test.dest}" suitename="JPetStore">	
+            <xmlfileset dir="${ws.home}" includes="src/test/resources/JPetStore.xml"/>
+        </testng>    	
+        <!--
+        <testng classpath="${test.classpath}:${test.dest}" groups="fast">
+            <classfileset dir="${test.dest}" includes="example1/*.class"/>
+        </testng>
+        -->
+    </target>
+
+    <target name="usage">
+        <echo>
+            ant run will execute the test - "${ws.home}"
+        </echo>    	
+    </target>
+
+	<path id="test.xslt">
+		<fileset dir="${ws.home}/saxon" includes="**/*.jar"/>
+	</path>
+	
+	  <target name="makexsltreports">
+	        <mkdir dir="${ws.home}/XSLT_Reports/output"/>
+
+	        <xslt in="${ng.result}/testng-results.xml" style="src/test/resources/testng-results.xsl"
+	              out="${ws.home}/XSLT_Reports/output/index.html" classpathref="test.xslt" processor="SaxonLiaison">
+	            <param name="testNgXslt.outputDir" expression="${ws.home}/XSLT_Reports/output/"/>
+	            <param name="testNgXslt.showRuntimeTotals" expression="true"/>
+	        </xslt>
+	    </target>
+
+    <!-- ****************** targets not used ****************** -->
+	<target name="email" >
+	       <java classname="com.rmtx.mail.ZipAndSendMail" classpath="${test.dest}" classpathref="classpath_jars" />
+	    </target>
+
+	<target name="run_parallel" >
+		       <java classname="com.rmtx.testRun.ParallelExec" classpath="${test.dest}" classpathref="classpath_jars" />
+		    </target> 
+</project>

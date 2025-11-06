@@ -1,0 +1,47 @@
+2025-10-21 12:43:41.384 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:43:41.657 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:43:41.676 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:46:16.451 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:46:17.462 DEBUG ApplicationKeywords:189 - Navigating to https://petstore.octoperf.com/
+2025-10-21 12:46:19.452 DEBUG ApplicationKeywords:189 - Checking presence of HOME_PAGE_TITLE
+2025-10-21 12:46:19.765 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:46:20.329 DEBUG ApplicationKeywords:189 - Navigating to https://petstore.octoperf.com/
+2025-10-21 12:46:22.290 DEBUG ApplicationKeywords:189 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-21 12:46:22.291 DEBUG ApplicationKeywords:189 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-21 12:46:23.128 DEBUG ApplicationKeywords:189 - Checking presence of SIGNIN_LINK_xpath
+2025-10-21 12:46:23.187 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:46:23.728 DEBUG ApplicationKeywords:189 - Navigating to https://petstore.octoperf.com/
+2025-10-21 12:46:25.699 DEBUG ApplicationKeywords:189 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-21 12:46:25.699 DEBUG ApplicationKeywords:189 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-21 12:46:28.567 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:46:29.116 DEBUG ApplicationKeywords:189 - Navigating to https://petstore.octoperf.com/
+2025-10-21 12:46:32.112 DEBUG ApplicationKeywords:189 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-21 12:46:32.112 DEBUG ApplicationKeywords:189 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-21 12:46:35.055 DEBUG ApplicationKeywords:189 - Clicking on SIGNIN_LINK_xpath
+2025-10-21 12:46:35.056 DEBUG ApplicationKeywords:189 - Checking presence of SIGNIN_LINK_xpath
+2025-10-21 12:46:35.506 DEBUG ApplicationKeywords:189 - Clearing text field USERNAME_INPUT_xpath
+2025-10-21 12:46:35.506 DEBUG ApplicationKeywords:189 - Checking presence of USERNAME_INPUT_xpath
+2025-10-21 12:46:35.568 DEBUG ApplicationKeywords:189 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-21 12:46:35.569 DEBUG ApplicationKeywords:189 - Checking presence of USERNAME_INPUT_xpath
+2025-10-21 12:46:35.614 DEBUG ApplicationKeywords:189 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-21 12:46:35.614 DEBUG ApplicationKeywords:189 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-21 12:46:35.675 DEBUG ApplicationKeywords:189 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-21 12:46:35.675 DEBUG ApplicationKeywords:189 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-21 12:46:37.746 DEBUG ApplicationKeywords:189 - Clicking on LOGIN_BUTTON_xpath
+2025-10-21 12:46:37.746 DEBUG ApplicationKeywords:189 - Checking presence of LOGIN_BUTTON_xpath
+2025-10-21 12:46:40.452 DEBUG ApplicationKeywords:189 - Checking presence of SIGNOUT_LINK_xpath
+2025-10-21 12:48:25.628 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:48:25.911 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:48:25.948 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:52:43.081 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:52:43.353 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:52:43.383 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:54:53.472 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:54:54.055 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:54:54.083 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:57:14.871 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:57:15.144 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 12:57:15.188 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 13:14:45.190 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 13:14:45.461 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-21 13:14:45.497 DEBUG ApplicationKeywords:189 - Opening The Browser chrome

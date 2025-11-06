@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JPetStore">
+	<listeners>
+		<listener class-name="listener.MyTestNGListener"></listener>
+	</listeners>
+	<parameter name="browserName" value="Firefox" />
+	<parameter name="runmode" value="Yes" />
+	<parameter name="iteration" value="11" />
+	<parameter name="suitename" value="JPetStore" />
+	<test thread-count="1" name="VerifyHomePageTitle">
+		<classes>
+			<class name="testcases.HomePageTest">
+				<methods>
+					<include name="VerifyHomePageTitle" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<parameter name="browserName" value="Firefox" />
+	<parameter name="runmode" value="Yes" />
+	<parameter name="iteration" value="11" />
+	<parameter name="suitename" value="JPetStore" />
+	<test thread-count="1" name="VerifySignInButtonPresence">
+		<classes>
+			<class name="testcases.StoreEntryTest">
+				<methods>
+					<include name="VerifySignInButtonPresence" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<parameter name="browserName" value="Firefox" />
+	<parameter name="runmode" value="Yes" />
+	<parameter name="iteration" value="11" />
+	<parameter name="suitename" value="JPetStore" />
+	<test thread-count="1" name="VerifyStoreEntryTitle">
+		<classes>
+			<class name="testcases.StoreEntryTest">
+				<methods>
+					<include name="VerifyStoreEntryTitle" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<parameter name="browserName" value="Firefox" />
+	<parameter name="runmode" value="Yes" />
+	<parameter name="iteration" value="11" />
+	<parameter name="suitename" value="JPetStore" />
+	<test thread-count="1" name="Verifylogin">
+		<classes>
+			<class name="testcases.StoreEntryTest">
+				<methods>
+					<include name="Verifylogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<!--
+	<parameter name="browserName" value="Firefox" />
+	<parameter name="runmode" value="Yes" />
+	<parameter name="iteration" value="11" />
+	<parameter name="suitename" value="JPetStore" />
+	<test thread-count="1" name="verifyAvailablePets">
+		<classes>
+			<class name="testcases.DashBoardTest">
+				<methods>
+					<include name="verifyAvailablePets" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<parameter name="browserName" value="Firefox" />
+	<parameter name="runmode" value="Yes" />
+	<parameter name="iteration" value="11" />
+	<parameter name="suitename" value="JPetStore" />
+	<test thread-count="1" name="verifyAllPets">
+		<classes>
+			<class name="testcases.DashBoardTest">
+				<methods>
+					<include name="verifyAllPets" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	Test -->
+</suite> <!--
+Suite -->

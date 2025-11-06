@@ -1,0 +1,29 @@
+2025-10-22 12:34:06.170 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-22 12:34:10.020 DEBUG ApplicationKeywords:189 - Navigating to https://petstore.octoperf.com/
+2025-10-22 12:34:11.998 DEBUG ApplicationKeywords:189 - Checking presence of HOME_PAGE_TITLE
+2025-10-22 12:34:12.295 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-22 12:34:12.888 DEBUG ApplicationKeywords:189 - Navigating to https://petstore.octoperf.com/
+2025-10-22 12:34:14.880 DEBUG ApplicationKeywords:189 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-22 12:34:14.881 DEBUG ApplicationKeywords:189 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-22 12:34:15.723 DEBUG ApplicationKeywords:189 - Checking presence of SIGNIN_LINK_xpath
+2025-10-22 12:34:15.924 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-22 12:34:16.516 DEBUG ApplicationKeywords:189 - Navigating to https://petstore.octoperf.com/
+2025-10-22 12:34:18.482 DEBUG ApplicationKeywords:189 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-22 12:34:18.482 DEBUG ApplicationKeywords:189 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-22 12:34:21.471 DEBUG ApplicationKeywords:189 - Opening The Browser chrome
+2025-10-22 12:34:22.053 DEBUG ApplicationKeywords:189 - Navigating to https://petstore.octoperf.com/
+2025-10-22 12:34:25.032 DEBUG ApplicationKeywords:189 - Clicking on ENTER_STORE_LINK_xpath
+2025-10-22 12:34:25.033 DEBUG ApplicationKeywords:189 - Checking presence of ENTER_STORE_LINK_xpath
+2025-10-22 12:34:27.880 DEBUG ApplicationKeywords:189 - Clicking on SIGNIN_LINK_xpath
+2025-10-22 12:34:27.880 DEBUG ApplicationKeywords:189 - Checking presence of SIGNIN_LINK_xpath
+2025-10-22 12:34:28.224 DEBUG ApplicationKeywords:189 - Clearing text field USERNAME_INPUT_xpath
+2025-10-22 12:34:28.224 DEBUG ApplicationKeywords:189 - Checking presence of USERNAME_INPUT_xpath
+2025-10-22 12:34:28.286 DEBUG ApplicationKeywords:189 - Typing in USERNAME_INPUT_xpath . Data j2ee
+2025-10-22 12:34:28.286 DEBUG ApplicationKeywords:189 - Checking presence of USERNAME_INPUT_xpath
+2025-10-22 12:34:28.340 DEBUG ApplicationKeywords:189 - Clearing text field PASSWORD_INPUT_xpath
+2025-10-22 12:34:28.340 DEBUG ApplicationKeywords:189 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-22 12:34:28.396 DEBUG ApplicationKeywords:189 - Typing in PASSWORD_INPUT_xpath . Data j2ee
+2025-10-22 12:34:28.396 DEBUG ApplicationKeywords:189 - Checking presence of PASSWORD_INPUT_xpath
+2025-10-22 12:34:30.447 DEBUG ApplicationKeywords:189 - Clicking on LOGIN_BUTTON_xpath
+2025-10-22 12:34:30.447 DEBUG ApplicationKeywords:189 - Checking presence of LOGIN_BUTTON_xpath
+2025-10-22 12:34:33.163 DEBUG ApplicationKeywords:189 - Checking presence of SIGNOUT_LINK_xpath
